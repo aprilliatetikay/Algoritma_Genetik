@@ -1,4 +1,4 @@
-🧬 Genetic Algorithm (Algoritma Genetik) - README
+🧬 Genetic Algorithm (Algoritma Genetik) 
 
 📌 1. Project Description
 
