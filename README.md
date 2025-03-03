@@ -1,92 +1,86 @@
-🧬 Genetic Algorithm (Algoritma Genetik) 
+# 🧬 Genetic Algorithm (Algoritma Genetik)
 
-📌 1. Project Description
+## 📌 Project Overview
 
-This project explores Genetic Algorithms (GA), a powerful optimization technique inspired by natural selection. The goal is to understand and implement GA for solving optimization problems using Python.
+This project explores **Genetic Algorithms (GA)**, a powerful optimization technique inspired by **natural selection**. The objective is to understand and implement GA for solving complex optimization problems using **Python**.
 
-The project includes:
+### 🔍 Key Components:
+- **Introduction to Genetic Algorithms** and their real-world applications.
+- **Implementing selection, crossover, and mutation mechanisms.**
+- **Running GA to find optimal solutions.**
+- **Visualizing and analyzing results using Python.**
 
-✅ An introduction to Genetic Algorithms.
+---
 
-✅ Implementing selection, crossover, and mutation.
+## 🧪 Concept of Genetic Algorithm
 
-✅ Running the algorithm to find optimal solutions.
+### 🔹 How Genetic Algorithm Works:
+1. **Initialization** → Generate an initial population of candidate solutions.
+2. **Selection** → Choose the fittest individuals based on a fitness function.
+3. **Crossover (Recombination)** → Combine two parents to create offspring.
+4. **Mutation** → Introduce small changes to maintain diversity.
+5. **Evaluation** → Compute the fitness of new individuals.
+6. **Termination** → Stop when an optimal solution is found or after a set number of generations.
 
-✅ Using Python to visualize and analyze results.
+### 🔹 Why Use Genetic Algorithms?
 
-🧪 2. Concept of Genetic Algorithm
+✅ Suitable for **complex optimization problems**.
 
-🔹 How Genetic Algorithm Works:
+✅ Handles **non-linear search spaces** effectively.
 
-Initialization: Generate a population of candidate solutions.
+✅ Finds **global optima** while avoiding local optima traps.
 
-Selection: Choose the fittest individuals based on a fitness function.
+---
 
-Crossover (Recombination): Combine two parents to create offspring.
+## 🛠️ Implementation in Jupyter Notebook
 
-Mutation: Introduce small changes to maintain diversity.
+The notebook **(Algoritma_Genetik.ipynb)** demonstrates GA step-by-step, including:
 
-Evaluation: Compute the fitness of new individuals.
+✅ **Defining a fitness function** to evaluate individuals.
 
-Termination: Stop when an optimal solution is found or after a set number of generations.
+✅ **Implementing selection methods** (e.g., **Roulette Wheel, Tournament Selection**).
 
-🔹 Why Use Genetic Algorithm?
+✅ **Performing crossover** to combine genetic information.
 
-Suitable for complex optimization problems.
+✅ **Applying mutation** to introduce variations.
 
-Can handle non-linear search spaces.
+✅ **Running GA for multiple generations** to find the optimal solution.
 
-Finds global optima while avoiding local optima traps.
+---
 
-🛠️ 3. Implementation in Jupyter Notebook
+## 🚀 How to Run the Notebook
 
-The notebook (Algoritma_Genetik.ipynb) implements a Genetic Algorithm step-by-step, including:
-
-Defining a fitness function to evaluate individuals.
-
-Implementing selection methods (e.g., Roulette Wheel, Tournament Selection).
-
-Performing crossover to combine genetic information.
-
-Applying mutation to introduce variations.
-
-Running GA for multiple generations to find the optimal solution.
-
-🚀 4. How to Run the Notebook
-
-To execute the notebook, follow these steps:
-
-🔹 4.1. Install Dependencies
-
+### 🔹 1. Install Dependencies
 Ensure you have the required Python libraries installed:
-
+```sh
 pip install numpy pandas matplotlib
+```
 
-🔹 4.2. Run Jupyter Notebook
-
-Open Jupyter Notebook:
-
+### 🔹 2. Run Jupyter Notebook
+Open Jupyter Notebook and execute the project step by step:
+```sh
 jupyter notebook
+```
+Load **Algoritma_Genetik.ipynb** and run all cells.
 
-Load Algoritma_Genetik.ipynb and run all cells step by step.
+---
 
-📈 5. Results & Insights
+## 📈 Results & Insights
 
-After executing the Genetic Algorithm, the following insights were obtained:
+✅ The **algorithm successfully optimizes** the given problem.
 
-✅ The algorithm successfully optimizes the given problem.
+✅ **Fitness score improves** over generations, showing evolutionary progress.
 
-✅ Fitness score improves over generations, showing evolutionary progress.
+✅ **Mutation plays a key role** in maintaining genetic diversity.
 
-✅ Mutation plays a key role in maintaining genetic diversity.
+✅ Different **selection and crossover strategies** impact solution quality.
 
-✅ Different selection and crossover strategies impact the solution quality.
+These insights highlight the effectiveness of **evolutionary computing** in solving optimization challenges.
 
-These insights demonstrate the power of evolutionary computing in solving complex optimization challenges.
+---
 
-📌 6. Conclusion
+## 📌 Conclusion
 
-This project showcases the application of Genetic Algorithms in optimization problems. By understanding these concepts, we gain valuable skills in heuristic-based problem-solving and artificial intelligence.
+This project showcases the power of **Genetic Algorithms** in solving **optimization problems**. By understanding these fundamental concepts, we gain valuable skills in **heuristic-based problem-solving** and **artificial intelligence**.
 
-🚀 Explore the notebook and evolve your solutions with Genetic Algorithms!
-
+🚀 **Explore the notebook and evolve your solutions with Genetic Algorithms!**
